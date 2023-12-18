@@ -79,7 +79,7 @@ const CardMobile = () => {
             <div className="download-cv flex justify-center mt-6">
               <a
                 className="text-sm font-semibold py-4 px-6 rounded-lg bg-gray text-white"
-                href=""
+                href="https://drive.google.com/file/d/1a2HqMWwB4QqPJmu8g18ALcAXL1xkGop3/view?usp=sharing"
               >
                 Download CV
               </a>
