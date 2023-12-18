@@ -10,7 +10,7 @@ const Nav = () => {
             <li className="bg-light-gray py-2 px-5 rounded-md text-center">
               <img
                 className="w-6 inline"
-                src="../src/assets/img/person.png"
+                src="./person.png"
                 alt=""
               />
 
@@ -21,7 +21,7 @@ const Nav = () => {
             <li className="bg-light-gray py-2 px-5 rounded-md text-center">
               <img
                 className="w-6 inline"
-                src="../src/assets/img/portfolios.png"
+                src="./portfolios.png"
                 alt=""
               />
 

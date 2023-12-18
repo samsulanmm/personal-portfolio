@@ -10,7 +10,7 @@ const CardMobile = () => {
             <div className="card-photo absolute top-[-100px] left-[75px]">
               <img
                 className="w-[200px]"
-                src="../src/assets/img/card-photo.png"
+                src="./card-photo.png"
                 alt=""
               />
             </div>
@@ -29,7 +29,7 @@ const CardMobile = () => {
               <div className="email flex gap-4 items-center">
                 <div className="bg-white py-2 px-4 rounded-lg">
                   <a href="mailto:samsulanamofc@gmail.com">
-                    <img src="../src/assets/img/email-icon.png" alt="" />
+                    <img src="./email-icon.png" alt="" />
                   </a>
                 </div>
 
@@ -49,7 +49,7 @@ const CardMobile = () => {
                     href="https://www.instagram.com/samsulanmm/"
                     target="_blank"
                   >
-                    <img src="../src/assets/img/instagram-icon.png" alt="" />
+                    <img src="./instagram-icon.png" alt="" />
                   </a>
                 </div>
 
@@ -63,7 +63,7 @@ const CardMobile = () => {
               </div>
               <div className="web flex gap-4 items-center pt-4">
                 <div className="bg-white py-2 px-4 rounded-lg">
-                  <img src="../src/assets/img/web-icon.png" alt="" />
+                  <img src="./web-icon.png" alt="" />
                 </div>
 
                 <div>

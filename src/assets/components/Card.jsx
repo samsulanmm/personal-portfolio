@@ -9,7 +9,7 @@ const Card = () => {
           <div className="card-photo absolute top-[-100px] right-[100px] left-[100px]">
             <img
               className="w-[200px]"
-              src="../src/assets/img/card-photo.png"
+              src="./card-photo.png"
               alt=""
             />
           </div>
@@ -28,7 +28,7 @@ const Card = () => {
             <div className="email flex gap-5 items-center">
               <div className="bg-white py-2 px-4 rounded-lg">
                 <a href="mailto:samsulanamofc@gmail.com">
-                  <img src="../src/assets/img/email-icon.png" alt="" />
+                  <img src="./email-icon.png" alt="" />
                 </a>
               </div>
 
@@ -43,7 +43,7 @@ const Card = () => {
             <div className="instagram flex gap-5 items-center pt-4">
               <div className="bg-white py-2 px-4 rounded-lg">
                 <a href="https://www.instagram.com/samsulanmm/" target="_blank">
-                  <img src="../src/assets/img/instagram-icon.png" alt="" />
+                  <img src="./instagram-icon.png" alt="" />
                 </a>
               </div>
 
@@ -57,7 +57,7 @@ const Card = () => {
             </div>
             <div className="web flex gap-5 items-center pt-4">
               <div className="bg-white py-2 px-4 rounded-lg">
-                <img src="../src/assets/img/web-icon.png" alt="" />
+                <img src="./web-icon.png" alt="" />
               </div>
 
               <div>
