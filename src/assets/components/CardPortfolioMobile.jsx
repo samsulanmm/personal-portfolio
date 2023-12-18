@@ -1,6 +1,8 @@
 import React from "react";
 import Nav from "./Nav";
 
+import { Link } from "react-router-dom";
+
 const CardPortfolioMobile = () => {
   return (
     <>
@@ -8,11 +10,7 @@ const CardPortfolioMobile = () => {
         <div className="w-[90%] mx-auto pt-36 flex justify-center">
           <div className="w-full bg-light-gray rounded-2xl relative pb-6">
             <div className="card-photo absolute top-[-100px] left-[75px]">
-              <img
-                className="w-[200px]"
-                src="./card-photo.png"
-                alt=""
-              />
+              <img className="w-[200px]" src="./card-photo.png" alt="" />
             </div>
 
             <div className="info pt-16 text-center">
@@ -93,21 +91,17 @@ const CardPortfolioMobile = () => {
           </h3>
 
           <div className="portfolio-cards flex flex-col items-center gap-6 mt-6">
-            <img
-              className="w-[200px]"
-              src="./portfolio-1.png"
-              alt=""
-            />
-            <img
-              className="w-[200px]"
-              src="./portfolio-2.png"
-              alt=""
-            />
-            <img
-              className="w-[200px]"
-              src="./portfolio-3.png"
-              alt=""
-            />
+            <a href="https://estatein-web.vercel.app/">
+              <img className="w-[200px]" src="./portfolio-1.png" alt="" />
+            </a>
+
+            <Link to="/onprogress">
+              <img className="w-[200px]" src="./portfolio-2.png" alt="" />
+            </Link>
+
+            <Link to="/onprogress">
+              <img className="w-[200px]" src="./portfolio-3.png" alt="" />
+            </Link>
           </div>
 
           <Nav />

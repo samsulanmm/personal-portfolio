@@ -1,17 +1,15 @@
 import React from "react";
 import Nav from "./Nav";
 
+import { Link } from "react-router-dom";
+
 const CardPortfolio = () => {
   return (
     <>
       <div className="container hidden w-[90%] mx-auto mt-[115px] md:flex justify-between gap-20">
         <div className="w-[400px] bg-light-gray rounded-2xl relative pb-6">
           <div className="card-photo absolute top-[-100px] right-[100px] left-[100px]">
-            <img
-              className="w-[200px]"
-              src="./card-photo.png"
-              alt=""
-            />
+            <img className="w-[200px]" src="./card-photo.png" alt="" />
           </div>
 
           <div className="info pt-16 text-center">
@@ -84,21 +82,17 @@ const CardPortfolio = () => {
           <h3 className="text-2xl font-semibold text-black">Portfolio Saya</h3>
 
           <div className="portfolio-cards flex justify-between items-center mt-6">
-            <img
-              className="w-[200px]"
-              src="./portfolio-1.png"
-              alt=""
-            />
-            <img
-              className="w-[200px]"
-              src="./portfolio-2.png"
-              alt=""
-            />
-            <img
-              className="w-[200px]"
-              src="./portfolio-3.png"
-              alt=""
-            />
+            <a href="https://estatein-web.vercel.app/">
+              <img className="w-[200px]" src="./portfolio-1.png" alt="" />
+            </a>
+
+            <Link to="/onprogress">
+              <img className="w-[200px]" src="./portfolio-2.png" alt="" />
+            </Link>
+
+            <Link to="/onprogress">
+              <img className="w-[200px]" src="./portfolio-3.png" alt="" />
+            </Link>
           </div>
 
           <Nav />

@@ -7,11 +7,7 @@ const Card = () => {
       <div className="container hidden w-[90%] mx-auto mt-[115px] md:flex justify-between gap-20">
         <div className="w-[400px] bg-light-gray rounded-2xl relative pb-6">
           <div className="card-photo absolute top-[-100px] right-[100px] left-[100px]">
-            <img
-              className="w-[200px]"
-              src="./card-photo.png"
-              alt=""
-            />
+            <img className="w-[200px]" src="./card-photo.png" alt="" />
           </div>
 
           <div className="info pt-16 text-center">
@@ -55,19 +51,21 @@ const Card = () => {
                 <p className="text-base font-medium text-white">samsulanmm</p>
               </div>
             </div>
-            <div className="web flex gap-5 items-center pt-4">
-              <div className="bg-white py-2 px-4 rounded-lg">
-                <img src="./web-icon.png" alt="" />
-              </div>
+            <a href="https://samsulanmm.vercel.app/">
+              <div className="web flex gap-5 items-center pt-4">
+                <div className="bg-white py-2 px-4 rounded-lg">
+                  <img src="./web-icon.png" alt="" />
+                </div>
 
-              <div>
-                <h4 className="text-lg font-medium text-light-gray">Web</h4>
+                <div>
+                  <h4 className="text-lg font-medium text-light-gray">Web</h4>
 
-                <p className="text-base font-medium text-white">
-                  samsulanamofc.com
-                </p>
+                  <p className="text-base font-medium text-white">
+                    samsulanmm.vercel.app
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div className="download-cv flex justify-center mt-6">

@@ -8,11 +8,7 @@ const CardMobile = () => {
         <div className="w-[90%] mx-auto pt-36 flex justify-center">
           <div className="w-full bg-light-gray rounded-2xl relative pb-6">
             <div className="card-photo absolute top-[-100px] left-[75px]">
-              <img
-                className="w-[200px]"
-                src="./card-photo.png"
-                alt=""
-              />
+              <img className="w-[200px]" src="./card-photo.png" alt="" />
             </div>
 
             <div className="info pt-16 text-center">
@@ -61,19 +57,23 @@ const CardMobile = () => {
                   <p className="text-sm font-medium text-white">samsulanmm</p>
                 </div>
               </div>
-              <div className="web flex gap-4 items-center pt-4">
-                <div className="bg-white py-2 px-4 rounded-lg">
-                  <img src="./web-icon.png" alt="" />
-                </div>
+              <a href="https://samsulanmm.vercel.app/">
+                <div className="web flex gap-4 items-center pt-4">
+                  <div className="bg-white py-2 px-4 rounded-lg">
+                    <img src="./web-icon.png" alt="" />
+                  </div>
 
-                <div>
-                  <h4 className="text-base font-medium text-light-gray">Web</h4>
+                  <div>
+                    <h4 className="text-base font-medium text-light-gray">
+                      Web
+                    </h4>
 
-                  <p className="text-sm font-medium text-white">
-                    samsulanamofc.com
-                  </p>
+                    <p className="text-sm font-medium text-white">
+                      samsulanmm.vercel.app
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div className="download-cv flex justify-center mt-6">
